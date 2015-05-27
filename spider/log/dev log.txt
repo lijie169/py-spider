@@ -1,0 +1,8 @@
+1、python 包,模块机制需要逐步引入，先import 包，然后import 模块
+test
+    -----__init__.py
+    -----adc.py
+
+包中必须包含__init__.py，import test，会看到有一个init.pyc文件产生，然后import test.adc
+
+2、git命令使用
