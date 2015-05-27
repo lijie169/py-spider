@@ -1,0 +1,435 @@
+
+
+
+<div id="FRContent" class="areaInner">
+    <div class="fr_fundrankingdescription clearfix"> 
+        <a href="/help/tools/ranking.html" target="_blank">登录即可免费使用[专业版]。点击此处对比[大众版]与[专业版]的功能。</a>
+    </div>
+    <div class="blank1"></div>
+    <div id="fr_divPageTab" class="clearfix">
+        
+    <div index="0" class="fr_tabactive" onclick="$msfr.SwitchPage('0');">评级和风险评价</div>
+    <div index="1" class="fr_tabinactive" onclick="$msfr.SwitchPage('1');">业绩汇总</div>
+    <div index="2" class="fr_tabinactive" onclick="$msfr.SwitchPage('2');">业绩排名</div>
+
+<div class="fr_advancedfunction">
+    <div style="margin-top:1px \9;">净值日期:</div>
+    <div><span style="color:#1E50A2; font-family:Arial;">2015-05-22</span></div>
+    <div style="margin-top:1px \9;margin-left:10px;">当前排序:</div>
+    <div><a id="fr_aSortFiled" class="linkbutton" href="javascript:void(0)"></a></div>
+    <div style="margin-top:1px \9;margin-left:10px;">基金只数:</div>
+    <div><span style="color:#1E50A2; font-family:Arial;">751</span></div>
+    
+<div style="margin-top:-2px;">
+    <div id="fr_pager"></div>
+    <div class="fr_pagersizebar">
+         每页
+        <select id="fr_pagersize" onchange="$msfr.PagerSizeChange();">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="10000">全部</option>
+        </select> 
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript" language="javascript">
+    function PageClick(pageclickednumber) {$msfr.PagerChange(pageclickednumber);};var show={per:5,pre:{n:"<上一页",m:"prev"},next:{n:"下一页>",m:"next"}};$(document).ready(function() {$("#fr_pager").pager({ pagenumber: 1, pagecount: 38, buttonClickCallback: PageClick,show:show });$msfr.LoadPagerSize();});
+</script>
+</div>
+<div style="clear:both;"></div>
+    </div>
+    <div id="fr_divPage1" class="fundrankingpage">
+        
+        <div class="fr_floatheader">
+            <table class="fr_tableheader">
+                <tr>
+                    <td rowspan="2" style="width:30px; height:75px;">序<br />号</td>
+                    <td rowspan="2" style="width:65px;"><span sort="Symbol">基金代码</span></td>
+                    <td rowspan="2" style="width:200px;"><span sort="Default">基金名称</span></td>
+                    <td rowspan="2" style="width:60px;"><span sort="NAV">单位<br />净值<br />(元)</span></td>
+                    <td colspan="2">晨星评级(2015-03-31)</td>
+                    <td colspan="4">三年风险评价(2015-04-30)</td>
+                    <td colspan="2">夏普比率</td>
+                    <td colspan="2">今年以来</td>
+                </tr>
+                <tr>
+                    <td style="width:70px;"><span sort="StarRating3" type="rating">三年</span></td>
+                    <td style="width:70px;"><span sort="StarRating5" type="rating">五年</span></td>
+                    <td style="width:60px;"><span go="0">波动幅度<br />(%)</span></td>
+                    <td style="width:45px;">评价</td>
+                    <td style="width:60px;"><span go="0" type="risk">晨星风险<br />系数</span></td>
+                    <td style="width:45px;">评价</td>
+                    <td style="width:60px;"><span go="0">最近<br />三年</span></td>
+                    <td style="width:45px;">评价</td>
+                    <td style="width:60px;"><span go="0">总回报率<br />(%)</span></td>
+                    <td><span go="0" type="ranking" title="参与排名的基金只数：-">排名<br /><font>(-)</font></span></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            
+                    <table class="fr_tablecontent">
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">1</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000044F" onchange="$msfr.OnCheckboxChange('F00000044F',this.checked);"/>110029</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000044F" target="_blank">易方达科讯股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.4754</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td style="width:60px;">29.46</td>
+                            <td style="width:45px;">高</td>
+                            <td style="width:60px;">0.96</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.47</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">163.47</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">2</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004GA" onchange="$msfr.OnCheckboxChange('F0000004GA',this.checked);"/>166005</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004GA" target="_blank">中欧价值发现股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.3750</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">20.17</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">0.71</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.30</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">65.85</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">3</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004IM" onchange="$msfr.OnCheckboxChange('F0000004IM',this.checked);"/>550009</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004IM" target="_blank">信诚中小盘股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.4000</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">22.35</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.84</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.54</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">74.67</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">4</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004HQ" onchange="$msfr.OnCheckboxChange('F0000004HQ',this.checked);"/>162212</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004HQ" target="_blank">泰达宏利红利先锋股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.4260</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar3.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">22.35</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.86</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.21</td>
+                            <td style="width:45px">中</td>
+                            <td sort="ReturnYTD" style="width:60px;">83.53</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">5</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004IK" onchange="$msfr.OnCheckboxChange('F0000004IK',this.checked);"/>377530</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004IK" target="_blank">上投摩根行业轮动股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.1170</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">23.80</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.73</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.50</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">122.48</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">6</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004DA" onchange="$msfr.OnCheckboxChange('F0000004DA',this.checked);"/>630002</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004DA" target="_blank">华商盛世成长股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">5.7999</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">24.87</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">0.84</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.42</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">129.83</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">7</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004HK" onchange="$msfr.OnCheckboxChange('F0000004HK',this.checked);"/>080005</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004HK" target="_blank">长盛量化红利股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.7850</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td style="width:60px;">22.97</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.93</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.26</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">113.41</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">8</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004CH" onchange="$msfr.OnCheckboxChange('F0000004CH',this.checked);"/>660001</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004CH" target="_blank">农银行业成长股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.5496</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">23.97</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">0.84</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.50</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">96.22</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">9</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000049C" onchange="$msfr.OnCheckboxChange('F00000049C',this.checked);"/>163805</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000049C" target="_blank">中银策略股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.5978</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td style="width:60px;">24.22</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">0.76</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.42</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">113.52</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">10</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004A3" onchange="$msfr.OnCheckboxChange('F0000004A3',this.checked);"/>070013</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004A3" target="_blank">嘉实研究精选股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.6400</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">19.08</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">0.49</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.70</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">73.93</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">11</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004IG" onchange="$msfr.OnCheckboxChange('F0000004IG',this.checked);"/>519093</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004IG" target="_blank">新华钻石品质企业股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.3910</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">21.97</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.74</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.39</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">36.63</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">12</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004E2" onchange="$msfr.OnCheckboxChange('F0000004E2',this.checked);"/>519069</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004E2" target="_blank">汇添富价值精选股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.0170</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">21.45</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">0.65</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.52</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">77.67</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">13</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004AA" onchange="$msfr.OnCheckboxChange('F0000004AA',this.checked);"/>202011</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004AA" target="_blank">南方优选价值股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.2750</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">19.24</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">0.65</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.38</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">58.42</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">14</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004F2" onchange="$msfr.OnCheckboxChange('F0000004F2',this.checked);"/>519670</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004F2" target="_blank">银河行业股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.9090</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">29.17</td>
+                            <td style="width:45px;">高</td>
+                            <td style="width:60px;">0.98</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.57</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">129.91</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">15</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F0000004DK" onchange="$msfr.OnCheckboxChange('F0000004DK',this.checked);"/>530006</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F0000004DK" target="_blank">建信核心精选股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.1400</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">16.93</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">0.62</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.37</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">79.98</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">16</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000049G" onchange="$msfr.OnCheckboxChange('F00000049G',this.checked);"/>519110</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000049G" target="_blank">浦银安盛价值成长股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.3390</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td style="width:60px;">28.92</td>
+                            <td style="width:45px;">高</td>
+                            <td style="width:60px;">1.06</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">1.55</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">141.88</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">17</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000049P" onchange="$msfr.OnCheckboxChange('F00000049P',this.checked);"/>519668</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000049P" target="_blank">银河成长股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.4997</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">26.04</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">0.83</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.52</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">127.98</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">18</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000041A" onchange="$msfr.OnCheckboxChange('F00000041A',this.checked);"/>100026</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000041A" target="_blank">富国天合稳健股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.3090</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change2.gif" /></td>
+                            <td style="width:60px;">25.06</td>
+                            <td style="width:45px;">中</td>
+                            <td style="width:60px;">0.98</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.27</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">96.80</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">19</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000049Z" onchange="$msfr.OnCheckboxChange('F00000049Z',this.checked);"/>213008</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000049Z" target="_blank">宝盈资源优选股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">3.3859</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">27.89</td>
+                            <td style="width:45px;">高</td>
+                            <td style="width:60px;">0.92</td>
+                            <td style="width:45px;">偏低</td>
+                            <td style="width:60px;">1.65</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">105.43</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr>
+                            <td style="width:30px; text-align:center;">20</td>
+                            <td sort="Symbol" style="width:65px; text-align:left;"><input type="checkbox" fid="F00000042J" onchange="$msfr.OnCheckboxChange('F00000042J',this.checked);"/>020010</td>
+                            <td sort="Default" style="width:200px;text-align:left;"><a href="/quicktake/F00000042J" target="_blank">国泰金牛创新股票</a></td>
+                            <td sort="NAV" style="width:60px; text-align:center;">2.2430</td>
+                            <td sort="StarRating3" style="width:70px; text-align:left;"><img src="/common/images/smallstar4.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td sort="StarRating5" style="width:70px; text-align:left;"><img src="/common/images/smallstar5.gif" /><img src="/common/images/change0.gif" /></td>
+                            <td style="width:60px;">20.37</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">0.70</td>
+                            <td style="width:45px;">低</td>
+                            <td style="width:60px;">1.46</td>
+                            <td style="width:45px">高</td>
+                            <td sort="ReturnYTD" style="width:60px;">73.47</td>
+                            <td>-</td>
+                        </tr>
+                
+                        <tr><td colspan="14" class="fr_tablefooter"></td></tr>
+                    </table>
+                
+        </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    $msfr.BindSortEvent();
+    $msfr.LoadCheckboxSelected();
+    $msfr.LoadSortFiled();
+    $msfr.LoadSubTab();
+    $msfr.UnBindSortFiled();
+    $msfr.LoadRankingComments(false);
+    $msfr.LoadCurrentRankingDate('2015-05-22');
+    $msfr.SetSortFiledDisabled();
+    $msfr.LoadSpecialSortFiled();
+    $msfr.SetSortColumnColor();
+    $msfr.NotProfessinal();
+//]]>
+</script>
