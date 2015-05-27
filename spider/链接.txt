@@ -1,1 +1,0 @@
-http://cn.morningstar.com/handler/fundranking.ashx?date=2015-05-22&fund=&category=stock&rating=&company=&cust=&sort=StarRating5&direction=desc&tabindex=0&pageindex=1&pagesize=20&randomid=0.6619159041438252
