@@ -20,4 +20,11 @@ def and_rules(rule_list,astr):
 		str_list = tmp_list
 	
 	return str_list
-				
+
+def or_rules(rule_list,astr):
+	ret = []
+	for rule in rule_list:
+		patt = re.compile(rule[0],rule[1])
+		tmp_list = re.findall(patt,astr)
+		ret.extend(tmp_list)
+	return ret

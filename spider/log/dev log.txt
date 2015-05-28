@@ -6,3 +6,5 @@ test
 包中必须包含__init__.py，import test，会看到有一个init.pyc文件产生，然后import test.adc
 
 2、git命令使用
+
+3、太笨了，喜欢把简单的事情复杂化，导致现在浪费了很多时间，正确理解贪婪.*?，在匹配的情况点到为止
