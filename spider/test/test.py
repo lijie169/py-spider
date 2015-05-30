@@ -3,10 +3,7 @@ import urllib
 import re
 import code
 import code.rules
-def getHtml(url):
-	page = urllib.urlopen(url)
-	html = page.read()
-	return html
+
 
 def getImg(html):
 	reg = '<div .*? class=\"d_post_content j_d_post_content \">(.*?)</div>'
@@ -16,7 +13,7 @@ def getImg(html):
 	return re.sub('<br>','\n',imglist[0])
 	
 def test_getHtml():
-	html = getHtml(r"htp://tieba.baidu.com/p/3779823764")	
+	html = code.rules.getHtml(r"htp://tieba.baidu.com/p/3779823764")	
 	print getImg(html)
 
 def test_and_rules():
